@@ -1,0 +1,15 @@
+<div class="body">
+    <div class="position-relative">
+        <div class="container">
+            <div class="row">
+                <div *ngFor="let card of cards"class="col-sm-4">
+                    <ap-card
+                    name="{{card.name}}"
+                    specie="{{card.specie}}"
+                    ></ap-card>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
